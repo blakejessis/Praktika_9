@@ -35,7 +35,9 @@ public class Loader {
                 start = System.nanoTime();
                 Collections.binarySearch(al, s);
                 time = System.nanoTime() - start;
-                System.out.println("Бинарный поиск. Номер " + (Collections.binarySearch(al, s) >= 0 ? "найден" : "не найден") + ". Время поиска - " +  time);
+                System.out.println("Бинарный поиск. Номер " + (Collections.binarySearch(al, s) >= 0 ? "найден" : "не найден")
+                                   + ". Время поиска - "
+                                   +  time);
 
                 
                 start = System.nanoTime();
